@@ -229,7 +229,7 @@ class WPCOM_JSON_API_Update_Post_Endpoint extends WPCOM_JSON_API_Post_Endpoint {
 			$insert['menu_order'] = $input['menu_order'];
 			unset( $input['menu_order'] );
 		}
-		
+
 		$publicize = isset( $input['publicize'] ) ? $input['publicize'] : array();
 		unset( $input['publicize'] );
 
